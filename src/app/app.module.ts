@@ -9,6 +9,12 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
+import { CsPage } from '../pages/cs/cs';
+import { PyePage } from '../pages/pye/pye';
+import { CalculoPage } from '../pages/calculo/calculo';
+import { PaapsPage } from '../pages/paaps/paaps';
+import { MiPage } from '../pages/mi/mi';
+import { RoboPage } from '../pages/robo/robo';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { ComPage } from '../pages/com/com';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    CsPage,
+    PyePage,
+    CalculoPage,
+    PaapsPage,
+    MiPage,
+    RoboPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +40,13 @@ import { ComPage } from '../pages/com/com';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    CsPage,
+    PyePage,
+    CalculoPage,
+    PaapsPage,
+    MiPage,
+    RoboPage
   ],
   providers: [
     StatusBar,
